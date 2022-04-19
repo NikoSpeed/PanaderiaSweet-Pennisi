@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bodyIndex{
+    background-image: url("imagenes/fondo.jpg");
+    min-height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-areas: 
+        "cabeza cabeza cabeza"
+        "izq centro der"
+        "izq centro der"
+        "izq centro der"
+        "pie pie pie"
+    ;
+    gap: 1rem;
+}
+footer{
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+}
+.listafooter{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.listafooter li{
+    display: inline-block;
+    padding: 20px;
+    font-style: italic;
+    text-decoration: none;
+}
+.banner{
+    display: flex;
+    justify-content: end;
+}
+
+.banner ul{
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.banner div{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.listaHome{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+.listaHome a{
+    text-decoration: none;
+    color: blue;
+}
+
+.logo{
+    width: 300px;
+}
+.logo1{
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+.mein{
+    display: block;
+    text-align: center;
+}
+.mein p{
+    margin: 40px auto;
+    text-align: center;
+    width: 50%;
+    color: rgb(255, 0, 234);
+}
+.seccion1{
+    display: flex;
+}
+.seccion2{
+    display: flex;
+}
+.cabeza{
+    grid-area: cabeza;
+}
+.izq{
+    grid-area: izq;
+}
+.mein{
+    grid-area: centro;
+}
+.der{
+    grid-area: der;
+}
+.pie{
+    grid-area: pie;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo{
+        width: 0px;
+    }
+    .bodyIndex{
+        background-image: none;
+        background-color: bisque;
+    }
+    .banner{
+        background-image: url("imagenes/fondo.jpg");
+    }
+    .pie{
+        background-image: url("imagenes/fondo.jpg");
+    }
+}
+
+/* Galeria */
+
+.bodyGaleria{
+    background-image: url("imagenes/fondo.jpg");
+    min-height: 100vh;
+    position: relative;
+    display: grid;
+    grid-template-areas: 
+        "cabeza cabeza cabeza"
+        "xd centro centro"
+        "xd centro centro"
+        "xd centro centro"
+        "pie pie pie"
+    ;
+    gap: 1rem;
+}
+
+.meinGaleria{
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 5px;
+}
+
+.meinGaleria img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    justify-content: end;
+}
+
+@media only screen and (max-width: 768px) {
+    .meinGaleria img{
+        width: 100px;
+        height: 100px;
+        justify-items: center;
+    }
+}
