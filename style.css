@@ -32,7 +32,17 @@ footer{
     padding: 20px;
     font-style: italic;
     text-decoration: none;
+    transition: transform 2s, background-color 5s;
 }
+
+.listafooter li:hover{
+    transform: scale(1.5);
+}
+
+.listafooter li:hover a{
+    background-color: rgba(0, 0, 0, 0.116);
+}
+
 .banner{
     display: flex;
     justify-content: end;
@@ -106,8 +116,7 @@ footer{
         width: 0px;
     }
     .bodyIndex{
-        background-image: none;
-        background-color: bisque;
+        background-image: linear-gradient(bisque, rgb(238, 233, 207), beige);
     }
     .banner{
         background-image: url("imagenes/fondo.jpg");
@@ -149,6 +158,11 @@ footer{
     height: 350px;
     object-fit: cover;
     justify-content: end;
+    transition: transform 2s;
+}
+
+.meinGaleria img:hover{
+    transform: scale(1.5);
 }
 
 @media only screen and (max-width: 768px) {
