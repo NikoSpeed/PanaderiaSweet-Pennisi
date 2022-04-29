@@ -1,0 +1,39 @@
+.header{
+    background-image: url("./imagenes/fondo.jpg");
+}
+.logo{
+    width: 150px;
+}
+section{
+    height: 500px;
+}
+.nav-link{
+    font-size: 20px;
+}
+.carousel-item{
+    height: 300px;
+}
+.carousel-item img{
+    object-fit: cover;
+}
+.corrousel_cont{
+    margin-top: 10px;
+}
+
+body{
+    background-color: rgb(212, 162, 116);
+}
+
+.futer{
+    background-image: url("./imagenes/fondo.jpg");
+    height: 100px;
+    opacity: 75%;
+}
+
+.listafooter li{
+    display: flex;
+    padding: 10px;
+    font-style: italic;
+    text-decoration: none;
+    justify-content: center;
+}
