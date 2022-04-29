@@ -37,3 +37,26 @@ body{
     text-decoration: none;
     justify-content: center;
 }
+
+.formulario{
+    margin: 10px;
+}
+
+.email{
+    margin: 10px;
+}
+.nombre{
+    margin: 10px;
+}
+.mensaje{
+    margin: 10px;
+}
+.logo__form{
+    width: 450px;
+}
+
+@media only screen and (max-width: 994px) {
+    .logo__form{
+        width: 0px;
+    }
+}
