@@ -1,6 +1,12 @@
 .header{
     background-image: url("./imagenes/fondo.jpg");
 }
+
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+}
+
 .logo{
     width: 150px;
 }
@@ -16,26 +22,48 @@ section{
 .carousel-item img{
     object-fit: cover;
 }
-.corrousel_cont{
-    margin-top: 10px;
+
+.table th, tr{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+} 
+
+.container-fluid a{
+    font-style: italic;
+}
+
+.container-fluid li{
+    transition: transform 0.8s;
+}
+.container-fluid li:hover{
+    transform: scale(1.1);
 }
 
 body{
-    background-color: rgb(212, 162, 116);
+    /*    background-color: rgb(212, 162, 116); */
+    background: rgb(159,124,91);
+    background: linear-gradient(0deg, rgba(159,124,91,1) 0%, rgba(212,162,116,1) 100%);
+
 }
 
 .futer{
     background-image: url("./imagenes/fondo.jpg");
     height: 100px;
     opacity: 75%;
+    display: flex;
 }
 
-.listafooter li{
+.listafooter{
+    list-style: none;
     display: flex;
-    padding: 10px;
-    font-style: italic;
     text-decoration: none;
-    justify-content: center;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+}
+
+.listafooter a{
+    color: black;
 }
 
 .formulario{
@@ -59,4 +87,5 @@ body{
     .logo__form{
         width: 0px;
     }
+
 }
