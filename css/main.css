@@ -1,0 +1,60 @@
+.logo-contacto {
+  width: 150px; }
+
+h1 {
+  font-family: font-family Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 10px; }
+
+.nav-link {
+  font-size: 20px; }
+
+.container-fluid a {
+  font-style: italic; }
+
+.container-fluid li {
+  transition: transform 0.8s; }
+
+.container-fluid li:hover {
+  transform: scale(1.1); }
+
+body {
+  background: linear-gradient(0deg, #9f7c5b 0%, #d4a274 100%); }
+
+.logo__form {
+  width: 450px; }
+
+.formulario {
+  margin: 10px; }
+
+.email {
+  margin: 10px; }
+
+.nombre {
+  margin: 10px; }
+
+.mensaje {
+  margin: 10px; }
+
+@media only screen and (max-width: 994px) {
+  .logo__form {
+    width: 0px; } }
+
+.header {
+  background-image: url("../imagenes/fondo.jpg"); }
+
+.futer {
+  background-image: url("../imagenes/fondo.jpg");
+  height: 100px;
+  opacity: 75%;
+  display: flex; }
+
+.listafooter {
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto; }
+
+.listafooter a {
+  color: black; }

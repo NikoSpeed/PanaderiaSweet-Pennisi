@@ -1,0 +1,21 @@
+
+.futer{
+    background-image: url("../imagenes/fondo.jpg");
+    height: 100px;
+    opacity: 75%;
+    display: flex;
+}
+
+.listafooter{
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+}
+
+.listafooter a{
+    color: $color-footer;
+}
+

@@ -1,0 +1,45 @@
+.logo-contacto{
+    width: 150px;
+}
+h1{
+    font-family: $fuente-h1;
+    padding: 10px;
+}
+.nav-link{
+    font-size: 20px;
+}
+.container-fluid a{
+    font-style: italic;
+}
+.container-fluid li{
+    transition: transform 0.8s;
+}
+.container-fluid li:hover{
+    transform: scale(1.1);
+}
+body{
+    background: linear-gradient(0deg, rgba(159,124,91,1) 0%, rgba(212,162,116,1) 100%);
+}
+.logo__form{
+    width: 450px;
+}
+.formulario{
+    margin: 10px;
+}
+
+.email{
+    margin: 10px;
+}
+.nombre{
+    margin: 10px;
+}
+.mensaje{
+    margin: 10px;
+}
+
+@media only screen and (max-width: 994px) {
+    .logo__form{
+        width: 0px;
+    }
+
+}
