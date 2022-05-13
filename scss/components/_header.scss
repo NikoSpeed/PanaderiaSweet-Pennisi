@@ -1,3 +1,25 @@
 .header{
     background-image: url("../imagenes/fondo.jpg");
 }
+.logo-contacto{
+    width: map-get($map: $tamanio-imagenes, $key:logo);
+}
+h1{
+    font-family: $fuente-h1;
+    padding: 10px;
+}
+.nav-link{
+    font-size: 20px;
+}
+.container-fluid a{
+    font-style: italic;
+}
+.container-fluid li{
+    transition: transform 0.8s;
+}
+.container-fluid li:hover{
+    transform: scale(1.1);
+}
+.logo{
+    width: 150px;
+}

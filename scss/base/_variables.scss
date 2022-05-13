@@ -1,3 +1,27 @@
 $color-fondo: rgba(159,124,91,1);
 $color-footer: black;
 $fuente-h1: font-family Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+/* MAPS */
+$tamanio-imagenes:(
+    logo: 150px,
+    fondo-contacto: 450px,
+);
+$colores:(
+    color-princpial: rgba(159,124,91,1),
+    color-footer: black,
+);
+
+/* EXTEND */
+%nombre{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+};
+
+/* MIXING */
+@mixin footer ($height, $opacity){
+    display: flex;
+    height: $height;
+    opacity: $opacity;
+}
