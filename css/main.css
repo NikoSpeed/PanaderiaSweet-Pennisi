@@ -85,3 +85,47 @@ section {
 
 .container-fluid a {
   font-style: italic; }
+
+.receta-1 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; }
+
+.imagen-receta1 {
+  grid-area: 1 / 2 / 5 / 3; }
+
+.titulo-receta1 {
+  grid-area: 1 / 3 / 2 / 5; }
+
+.descripcion-receta1 {
+  grid-area: 2 / 3 / 4 / 5; }
+
+.link-a-receta1 {
+  grid-area: 4 / 3 / 5 / 5; }
+
+.receta-2 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; }
+
+.imagen-receta2 {
+  grid-area: 1 / 2 / 5 / 3; }
+
+.titulo-receta2 {
+  grid-area: 1 / 3 / 2 / 5; }
+
+.descripcion-receta2 {
+  grid-area: 2 / 3 / 4 / 5; }
+
+.link-a-receta2 {
+  grid-area: 4 / 3 / 5 / 5; }
+
+/* Imagenes */
+.logo-receta1 {
+  height: 200px; }
+
+/* Titulos */
