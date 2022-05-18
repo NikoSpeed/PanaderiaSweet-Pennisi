@@ -53,3 +53,12 @@
 .link-a-receta{
     font-size: 20px;
 }
+
+@media only screen and (max-width: 680px) {
+    .logo-receta1{
+        height: 0px;
+    }
+    .grilla-de-recetas{
+        height: 1800px;
+    }
+}
