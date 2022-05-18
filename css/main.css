@@ -124,20 +124,45 @@ section {
 .link-a-receta2 {
   grid-area: 4 / 3 / 5 / 5; }
 
-/* Imagenes */
-.logo-receta1 {
-  height: 200px; }
-
-/* Titulos */
-.titulo-receta1 {
-  display: block; }
-
-.galeria-grid {
+.receta-3 {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px; }
+
+.imagen-receta3 {
+  grid-area: 1 / 2 / 5 / 3; }
+
+.titulo-receta3 {
+  grid-area: 1 / 3 / 2 / 5; }
+
+.descripcion-receta3 {
+  grid-area: 2 / 3 / 4 / 5; }
+
+.link-a-receta {
+  grid-area: 4 / 3 / 5 / 5; }
+
+/* Imagenes */
+.logo-receta1 {
+  height: 300px; }
+
+/* Titulos */
+.titulo-receta1 {
+  display: block; }
+
+.grilla-de-recetas {
+  height: 1500px; }
+
+.link-a-receta {
+  font-size: 20px; }
+
+.galeria-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px; }
 
 .div1 {
   grid-area: 1 / 2 / 2 / 3; }
@@ -185,19 +210,8 @@ section {
   grid-area: 5 / 4 / 6 / 5; }
 
 .imagen1 {
-  height: 200px; }
+  height: 300px;
+  width: 300px; }
 
-.imagen2 {
-  height: 20px; }
-
-.imagen3 {
-  height: 20px; }
-
-.imagen4 {
-  height: 20px; }
-
-.div5 {
-  height: 20px; }
-
-.div6 {
-  height: 20px; }
+.galeria-imagenes {
+  height: 1600px; }

@@ -2,8 +2,8 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
     }
     
     .div1 { grid-area: 1 / 2 / 2 / 3; }
@@ -23,20 +23,10 @@
     .div15 { grid-area: 5 / 4 / 6 / 5; }
 
 .imagen1{
-    height: 200px;
+    height: 300px;
+    width: 300px;
 }
-.imagen2{
-    height: 20px;
-}
-.imagen3{
-    height: 20px;
-}
-.imagen4{
-    height: 20px;
-}
-.div5{
-    height: 20px;
-}
-.div6{
-    height: 20px;
+
+.galeria-imagenes{
+    height: 1600px;
 }

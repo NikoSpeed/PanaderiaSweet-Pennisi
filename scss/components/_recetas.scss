@@ -23,13 +23,33 @@
         .titulo-receta2 { grid-area: 1 / 3 / 2 / 5; }
         .descripcion-receta2 { grid-area: 2 / 3 / 4 / 5; }
         .link-a-receta2 { grid-area: 4 / 3 / 5 / 5; }
+
+        .receta-3 {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            }
+            
+            .imagen-receta3 { grid-area: 1 / 2 / 5 / 3; }
+            .titulo-receta3 { grid-area: 1 / 3 / 2 / 5; }
+            .descripcion-receta3 { grid-area: 2 / 3 / 4 / 5; }
+            .link-a-receta { grid-area: 4 / 3 / 5 / 5; }
     
     /* Imagenes */
 .logo-receta1{
-    height: 200px;
+    height: 300px;
 }
 
     /* Titulos */
 .titulo-receta1{
     display: block;
+}
+
+.grilla-de-recetas{
+    height: 1500px;
+}
+.link-a-receta{
+    font-size: 20px;
 }
