@@ -37,11 +37,63 @@
             .descripcion-receta3 { grid-area: 2 / 3 / 4 / 5; }
             .link-a-receta { grid-area: 4 / 3 / 5 / 5; }
     
-    /* Imagenes */
+    /* Imagenes Receta1*/
 .logo-receta1{
     height: 300px;
 }
-
+.receta-1{
+    background-color: rgb(165, 136, 110);
+}
+.imagen-receta1{
+    padding-top: 40px;
+}
+.titulo-receta1{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.descripcion-receta1{
+    padding-left: 20px;
+    padding-top: 20px; 
+}
+.link-a-receta{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+/* Imagenes Receta2*/
+.imagen-receta2{
+    padding-top: 40px;
+}
+.titulo-receta2{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.descripcion-receta2{
+    padding-left: 20px;
+    padding-top: 20px; 
+}
+.link-a-receta{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+/* Imagenes Receta2*/
+.receta-3{
+    background-color: rgb(165, 136, 110);
+}
+.imagen-receta3{
+    padding-top: 40px;
+}
+.titulo-receta3{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.descripcion-receta3{
+    padding-left: 20px;
+    padding-top: 20px; 
+}
+.link-a-receta{
+    padding-left: 20px;
+    padding-top: 10px;
+}
     /* Titulos */
 .titulo-receta1{
     display: block;

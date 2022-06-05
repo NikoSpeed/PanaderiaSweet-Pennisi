@@ -27,6 +27,24 @@
     width: 300px;
 }
 
+.imagen1:hover{
+    transform: scale(1.05);
+}
+
+.imagen1{
+    transition: transform 0.8s;
+}
+
 .galeria-imagenes{
     height: 1600px;
+}
+
+@media only screen and (max-width: 994px) {
+    .imagen1{
+        height: 180px;
+        width: 180px;
+    }
+    .galeria-imagenes{
+        height: 950px;
+    }
 }
