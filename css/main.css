@@ -86,6 +86,10 @@ section {
 .container-fluid a {
   font-style: italic; }
 
+@media only screen and (max-width: 768px) {
+  .container {
+    height: 700px; } }
+
 .receta-1 {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -287,3 +291,10 @@ section {
     width: 180px; }
   .galeria-imagenes {
     height: 950px; } }
+
+@media only screen and (max-width: 569px) {
+  .imagen1 {
+    height: 149px;
+    width: 149px; }
+  .galeria-imagenes {
+    height: 850px; } }
